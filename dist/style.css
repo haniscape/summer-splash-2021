@@ -19,6 +19,7 @@ a {
   .menu,
   .submenu {
     list-style-type: none;
+    margin-bottom: 0;
   }
   .logo {
     font-size: 20px;
@@ -56,8 +57,7 @@ a {
 
   .menu li button:hover,.menu li a:hover {
     color: #d0ff00;
-    font-size: 160%;
-    padding-top: 11px;
+    font-size: 150%;
   }
 
 
@@ -97,6 +97,7 @@ a {
 
   .submenu {
     display: none;
+    transform: translate(-120px, 14px);
   }
   .submenu-active .submenu {
     display: block;
@@ -122,11 +123,7 @@ a {
   .subitem a {
     padding: 10px 15px;
   }
-  .submenu-active {
-    background-color: #111;
-    border-radius: 3px;
-  }
-  
+
 
 
 
@@ -219,25 +216,45 @@ a {
 #bigshots .container {
   background:rgba(98, 125, 147, 0.502);
   background-image: linear-gradient(to top left, rgba(98, 125, 147, 0.8), rgb(158, 126, 32, 0.8), rgb(216, 88, 68, 0.8));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  padding: 3rem;
+
+}
+
+.welcome img {
+  height: 5rem;
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+}
+
+.welcome span {
+  font-size: 3rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
 }
 
 
 .big-artist, .artist {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 
 .big-artist h1{
   font-size: 5.5rem;
   line-height: 7rem;
-  color: #fff;
 }
 
 
 .artist h2{
   font-size: 3.5rem;
   line-height: 5rem;
-  color: #fff;
   text-align: right;
 }
 
