@@ -6,6 +6,8 @@
 body {
 	font-family: 'Fredoka One', cursive;
 	font-size: 16px;
+	background-color: #121213;
+    color: #fff;
 }
 nav {
 	background: #222;
@@ -215,12 +217,13 @@ ul.menu.active li.item.has-submenu {
 
 #gallery .container div i {
 	font-size: 10rem;
-	animation: textColor 1s ease infinite;
-	margin-top: 30px;
+	animation: textColor 1s ease-in-out infinite;
+	margin: 30px;
 }
 
 #gallery .container div img {
 	width: 100%;
+	margin: 30px auto;
 }
 
 #gallery div:after {
@@ -271,7 +274,7 @@ ul.menu.active li.item.has-submenu {
 
 #tickets {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 #tickets h1 {
